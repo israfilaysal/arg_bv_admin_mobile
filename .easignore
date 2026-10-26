@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Whitelist files and folders needed for app build
+!app.json
+!package.json
+!package-lock.json
+!eas.json
+!tsconfig.json
+!App.tsx
+!index.ts
+!LICENSE
+!assets
+!assets/**
+!src
+!src/**

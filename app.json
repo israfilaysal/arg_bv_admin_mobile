@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Bundan Var Mı? Admin",
+    "slug": "arg_bv_admin_mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoyazi512.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoyazi512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arg.bv.admin",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.arg.bv.admin",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/logoyazi512.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/logoyazi512.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e0134380-4ca6-42a1-b3bb-a3483a7b0a3c"
+      }
+    },
+    "owner": "israfilaysal"
+  }
+}
