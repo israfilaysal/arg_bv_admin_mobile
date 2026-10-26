@@ -1,20 +1,16 @@
 {
   "expo": {
-    "name": "Bundan Var Mı? Admin",
+    "name": "Bundan Var Mi Admin",
     "slug": "arg_bv_admin_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logoyazi512.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/logoyazi512.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.arg.bv.admin",
       "infoPlist": {
+        "CFBundleDisplayName": "Bundan Var Mı? Admin",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
@@ -33,7 +29,16 @@
     },
     "plugins": [
       "expo-secure-store",
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logoyazi512.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
     ],
     "extra": {
       "eas": {
